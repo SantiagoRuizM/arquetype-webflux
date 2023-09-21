@@ -1,5 +1,9 @@
 #  💻 ARCHETYPE WEBFLUX SPRINGBOOT 💻
 
+![ASF Jira](https://img.shields.io/endpoint?url=https%3A%2F%2Fmaven.apache.org%2Fbadges%2Fasf_jira-ARCHETYPE.json)
+![Apache License, Version 2.0, January 2004](https://img.shields.io/github/license/apache/maven.svg?label=License)
+![Jenkins Status](https://img.shields.io/jenkins/s/https/ci-maven.apache.org/job/Maven/job/maven-box/job/maven-archetype/job/master.svg?)
+
 ## 📚 Description
 
 This project is an archetype that follows a specific 
@@ -88,6 +92,8 @@ The skeleton uses the following folder structure::
 > [Search for more dependencies in gradle](https://docs.gradle.org/current/javadoc/allpackages-index.html)
 
 ## 📢 Recommendations and tips for usage.
+
+* You can delete de .gitkeep archive, it has no application functionality
 
 * The implementation of the business logic, validations or everything related
 to the base operation must go in the domain, it is expected that it will 
