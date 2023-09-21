@@ -1,0 +1,12 @@
+server:
+  port: {YOUR_PORT}
+
+spring:
+  datasource:
+    url: {URL_DATABASE}
+    username: {NAME_DATABASE}
+    password: {PASSWORD_DATABASE}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
